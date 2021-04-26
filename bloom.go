@@ -1,11 +1,12 @@
 package bloom
 
 import (
-	"bloom/hash"
 	"context"
 	"errors"
 	"strconv"
 	"time"
+
+	"github.com/zhwei820/gobloom/hash"
 
 	"github.com/go-redis/redis/v8"
 )
